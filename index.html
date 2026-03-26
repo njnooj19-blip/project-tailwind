@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>tailwind css</title>
+</head>  
+<body class="bg-orange-100 ">
+   <header class="bg-yellow-50 p-2 w-[95%] lg:w-10/12 h-auto lg:h-15 rounded-3xl mt-10 lg:mt-16 flex flex-row lg:flex-row justify-around items-center shadow-lg capitalize z-10 mx-auto lg:ml-32 gap-4">
+   <div class="justify-center relative">
+      <img src="images/creative-chocolate-seeklogo 1.png" class="w-32 lg:w-40 h-10 lg:h-12">
+   </div>
+   <nav class="inline md:block"> <ul class="flex flex-wrap justify-center gap-2 lg:gap-4 text-xs lg:text-base font-medium">
+      <a href="#"><li class="hover:shadow-sm hover:shadow-yellow-950">home</li></a>
+      <a href="#"><li class="hover:shadow-sm hover:shadow-yellow-950">services</li></a>
+      <a href="#"><li class="hover:shadow-sm hover:shadow-yellow-950">our work</li></a>
+      <a href="#"><li class="hover:shadow-sm hover:shadow-yellow-950">our team</li></a>
+      <a href="#"><li class="hover:shadow-sm hover:shadow-yellow-950">contact us</li></a>
+    </ul>
+   </nav>
+   <button class="w-40 h-10 rounded-xl bg-gradient-to-r from-yellow-500 via-yellow-700 to-yellow-900 bg-yellow-700 shadow-lg justify-center text-sm lg:text-base"> welcome to word </button>
+ </header>
+ <!-- closs header -->
+  <main class="min-h-screen relative flex flex-col lg:flex-row items-center justify-around p-6 lg:p-0 gap-10">
+    <div class="leading-loose flex flex-col gap-4 lg:gap-7 text-center lg:text-left">
+      <h1 class="font-extrabold text-2xl lg:text-3xl capitalize">indulge in pure chocolate bliss</h1>
+      <p class="font-thin text-sm lg:text-base">
+        Experience the art of premium chocolate making.<br>Every piece is handcrafted with the finest cocoa beans, <br>
+        creating a symphony of flavors that melts in your mouth.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 mt-2 items-center lg:items-start">
+        <button class="w-full sm:w-60 h-10 p-1 rounded-xl bg-gradient-to-r from-yellow-500 via-yellow-700 to-yellow-900 shadow-lg shadow-yellow-950">Shop Our Collection</button>
+        <button class="w-full sm:w-40 h-10 p-1 rounded-xl bg-gradient-to-r from-yellow-500 via-yellow-700 to-yellow-900 shadow-lg shadow-yellow-950">Explore Flavors</button>
+      </div>
+    </div>
+    <div class="w-full lg:w-auto px-4">
+      <img src="images/pexels-pixabay-65882.jpg" class="w-full lg:w-[400px] h-60 lg:h-80 rounded-md shadow-lg shadow-yellow-950 object-cover">
+    </div>
+  </main>
+  <!-- closs main -->
+   <section class="w-full min-h-screen py-10">
+    <h2 class="text-3xl text-center italic underline text-amber-950 mt-1">featured products</h2>
+    <div class="w-[90%] m-auto mt-28 flex flex-col lg:flex-row items-center justify-around gap-8">
+      
+      <div class="w-full max-w-sm lg:w-80 p-6 bg-yellow-50 rounded-3xl shadow-md shadow-yellow-800 hover:border-2 hover:border-yellow-700 transition-all space-y-4">
+        <i class="fa-solid fa-cookie-bite text-amber-950 text-4xl"></i>
+        <h3 class="text-xl font-semibold italic">signature dark chocolate</h3>
+        <p class="text-gray-500">Experience the intense purity of single-origin cocoa beans, handcrafted into the perfect bar.</p>
+        <ol class="list-inside list-disc">
+          <li>single-origin cocoa 75%</li>
+          <li>perfectly balanced</li>
+        </ol>
+      </div>
+
+      <div class="w-full max-w-sm lg:w-80 p-6 bg-yellow-50 rounded-3xl shadow-md shadow-yellow-800 hover:border-2 hover:border-yellow-700 transition-all space-y-4">
+        <i class="fa-solid fa-ice-cream text-amber-950 text-4xl"></i>
+        <h3 class="text-xl font-semibold italic">luxury ice cream</h3>
+        <p class="text-gray-500">Experience the intense purity of single-origin cocoa beans, handcrafted into the perfect bar.</p>
+        <ol class="list-inside list-disc">
+          <li>natural ingredients</li>
+          <li>creamy texture</li>
+        </ol>
+      </div>
+
+      <div class="w-full max-w-sm lg:w-80 p-6 bg-yellow-50 rounded-3xl shadow-md shadow-yellow-800 hover:border-2 hover:border-yellow-700 transition-all space-y-4">
+        <i class="fa-solid fa-gift text-amber-950 text-4xl"></i>
+        <h3 class="text-xl font-semibold italic">gift collections</h3>
+        <p class="text-gray-500">Experience the intense purity of single-origin cocoa beans, handcrafted into the perfect bar.</p>
+        <ol class="list-inside list-disc">
+          <li>premium packaging</li>
+          <li>custom assortments</li>
+        </ol>
+      </div>
+    </div>
+   </section>
+   <!-- closs section one -->
+   <section class="w-full py-10 bg-yellow-50">
+    <div class="w-full flex flex-wrap items-center justify-around gap-7 p-4">
+      <div class="size-32 lg:size-40 rounded-full bg-slate-700 flex-shrink-0">
+        <img src="images/pexels-jullnars-602706954-18411989.jpg" class="w-full h-full lg:size-40 rounded-full shadow-lg shadow-yellow-800 ">
+      </div>
+      <div class="size-32 lg:size-40 rounded-full bg-slate-700 flex-shrink-0">
+        <img src="images/pexels-sylwester-ficek-154797634-12430678.jpg" class="w-full h-full lg:size-40 rounded-full shadow-lg shadow-yellow-800 ">
+      </div>
+      <div class="size-32 lg:size-40 rounded-full bg-slate-700 flex-shrink-0">
+        <img src="images/pexels-vie-studio-6167332.jpg" class="w-full h-full rounded-full lg:size-40 shadow-lg shadow-yellow-800 ">
+      </div>
+      <div class="size-32 lg:size-40 rounded-full bg-slate-700 flex-shrink-0">
+        <img src="images/pexels-louai-benzaoui-435435842-20653561.jpg" class="w-full h-full lg:size-40 rounded-full shadow-lg shadow-yellow-800 ">
+      </div>
+    </div>
+   </section>
+   <!-- closs section two -->
+   <section class="w-full min-h-screen py-10">
+     <h2 class="text-3xl text-center italic underline text-amber-950 mb-10">our creative team</h2>
+     <div class="w-[90%] m-auto mt-28 flex flex-wrap justify-center gap-8">
+       
+       <div class="w-full sm:w-72 bg-yellow-50 rounded-3xl shadow-md shadow-yellow-800 transition-all overflow-hidden group h-80 hover:border-2  hover:border-yellow-700">
+          <img src="images/pexels-shvetsa-5964622.jpg" class="w-full h-44 ">
+         <div class="text-center p-4 space-y-3 text-amber-950 italic capitalize">
+           <h2>chef elena rose</h2>
+           <h3 class="group-hover:text-yellow-800 group-hover:font-extrabold text-sm">cookie artisan</h3>
+         </div>
+       </div>
+
+       <div class="w-full sm:w-72 bg-yellow-50 rounded-3xl shadow-md shadow-yellow-800 transition-all overflow-hidden group h-80 hover:border-2  hover:border-yellow-700">
+          <img src="images/pexels-miquel-ferran-gomez-figueroa-2172703-3814446.jpg" class="w-full h-44 ">
+         <div class="text-center p-4 space-y-3 text-amber-950 italic capitalize">
+           <h2>chef marcus vane</h2>
+           <h3 class="group-hover:text-yellow-800 group-hover:font-extrabold text-sm">executive head chef</h3>
+         </div>
+       </div>
+
+       <div class="w-full sm:w-72 bg-yellow-50 rounded-3xl shadow-md shadow-yellow-800 transition-all overflow-hidden group h-80 hover:border-2  hover:border-yellow-700">
+          <img src="images/pexels-shvets-production-7525133.jpg" class="w-full h-44 ">
+         <div class="text-center p-4 space-y-3 text-amber-950 italic capitalize">
+           <h2>chef mia frost</h2>
+           <h3 class="group-hover:text-yellow-800 group-hover:font-extrabold text-sm">cold desserts expert</h3>
+         </div>
+       </div>
+
+       <div class="w-full sm:w-72 bg-yellow-50 rounded-3xl shadow-md shadow-yellow-800 transition-all overflow-hidden group h-80 hover:border-2  hover:border-yellow-700">
+        <img src="images/pexels-gustavo-fring-3983714.jpg" class="w-full h-44 ">
+          <div class="text-center p-4 space-y-3 text-amber-950 italic capitalize">
+            <h2>chef sophia miller</h2>
+            <h3 class="group-hover:text-yellow-800 group-hover:font-extrabold text-sm">cake specialist</h3>
+          </div>
+       </div> 
+     </div>
+   </section>
+   <!-- closs section three -->
+   <section class="w-full min-h-screen bg-yellow-50 flex flex-col lg:flex-row gap-8 p-6 lg:p-16">
+    <div class="w-full lg:w-1/2 bg-orange-100 p-6 lg:p-10 rounded-3xl shadow-md shadow-yellow-800 space-y-4">
+      <h2 class="text-3xl italic text-amber-950 capitalize">contact us</h2>
+      <input type="text" placeholder="Full Name" class="block w-full rounded-lg p-2 shadow-sm shadow-yellow-800">
+      <input type="email" placeholder="Email Address" class="block w-full rounded-lg p-2 shadow-sm shadow-yellow-800">
+      <textarea placeholder="your message" class="block w-full h-24 rounded-lg p-2 shadow-sm shadow-yellow-800"></textarea>
+      <button class="block w-full rounded-lg p-2 bg-yellow-50 shadow-md shadow-yellow-800 capitalize text-amber-950 hover:bg-yellow-100">send message</button>
+      
+      <div class="w-full h-0.5 bg-yellow-700 my-4"></div>
+      
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p class="text-amber-950 text-sm">&copy; 2026 with dev najah</p>
+        <div class="flex gap-4">
+          <i class="fa-brands fa-facebook text-2xl hover:text-blue-600"></i>
+          <i class="fa-brands fa-instagram text-2xl hover:text-orange-700"></i>
+          <i class="fa-brands fa-twitter text-2xl hover:text-blue-600"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full lg:w-1/2 bg-orange-100 p-6 lg:p-10 rounded-3xl shadow-md shadow-yellow-800 space-y-8">
+      <h2 class="text-3xl italic text-amber-950 capitalize underline">contact information</h2>
+      <div class="space-y-6">
+       <div class="flex items-center gap-4 text-amber-900">
+         <i class="fa-solid fa-location-dot"></i> 
+         <p class="capitalize font-medium">address: syria damascus</p>
+       </div>
+       <div class="flex items-center gap-4 text-amber-900">
+         <i class="fa-solid fa-phone"></i> 
+         <p class="capitalize font-medium">phone: +963 456 789 080</p>
+       </div>
+       <div class="flex items-center gap-4 text-amber-900">
+         <i class="fa-solid fa-envelope"></i> 
+         <p class="capitalize font-medium">email: info@chocolate.com</p>
+       </div>
+      </div>
+      <div class="w-full h-40 bg-yellow-50 rounded-3xl shadow-md shadow-yellow-800 flex items-center justify-center">
+         <i class="fa-solid fa-map-location-dot text-amber-950 text-2xl"> <span class="ml-2 font-sans font-medium">View Map</span></i>
+      </div>
+    </div>
+   </section>
+   <!-- closs section four -->
+</body>
+</html>
